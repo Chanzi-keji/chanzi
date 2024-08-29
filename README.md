@@ -22,6 +22,6 @@
 
 ### 四、需求、bug、讨论
 
-* 需求/bug：请在该仓库的issues板块提交。
+* 需求/bug：请在该仓库的[issues](https://github.com/Chanzi-keji/chanzi/issues)板块提交。
 * 技术交流：请在该仓库的dissussions板块参与或发起讨论。
 * 产品文档：GitHub上提供了详细的文档，可在wiki版本阅读。
