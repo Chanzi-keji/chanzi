@@ -7,17 +7,21 @@
 
 ### 二、功能介绍
 
-* 支持语言: java（Servlet、spring、dubbo、thirft、mybatis、jsp，xml、yaml、properties）
-* 采用技术：污点分析，铲子会将java、xml（mybatis、dubbo）等统一构建数据流图，无需编译，然后进行污点分析。
-* 支持漏洞：内置了 sql 注入、命令注入、文件上传、ssrf 等常见漏洞规则，用户可以自定义规则。
-* 详细报告：生成简单的漏洞报告，包括漏洞类型、危害等级、所在位置以及修复建议，帮助开发人员快速定位和解决问题。
-* 特性:支持反编译扫描，多功能代码编辑器，cyber自定义规则，扫描过程不会上传任何代码到服务端，请放心使用
+* 支持语言: java（Servlet&filter、spring、dubbo、thirft、mybatis、dropwizard、jdk内置httpserver、jsp，xml、yaml、properties等）
+* 采用技术：污点分析，铲子会将java、xml（mybatis、dubbo）等统一构建数据流图，无需编译，然后进行污点分析，漏洞结果可在数据流窗口进行方便的阅读
+* 支持漏洞：内置了 sql 注入、命令注入、文件上传、ssrf 等常见cwe漏洞规则，以及log4j、shiro、xstream、actuator等组件类漏洞规则
+* 导出报告：用户可对漏洞进行标记，并导出简单的漏洞报告，包括漏洞类型、危害等级、所在位置以及修复建议，帮助开发人员快速定位和解决问题
+* 反编译:支持反编译扫描，可以在新建任务时选择需要反编译的jar或class文件，也可以在审计过程中对单个class或jar文件进行反编译阅读代码
+* 编辑器：多功能代码编辑器，为了更方便的阅读代码，减少用户在sast工具及ide之前频繁切换，编辑器内置了类型、变量、方法的跳转及使用查找，快速搜索全仓库，及文件的代码大纲
+* 自定义规则：自定义规则采用cyber查询语言，用户学习门槛低，对于熟悉图数据库的同学可以快速上手
+* 注：扫描过程不会上传任何形式的代码数据到服务端，请放心使用
 
 ### 三、工具的安装使用
 
 * 下载安装：访问“铲子”官方网站，根据您的操作系统选择合适的安装包进行下载并安装。
 * 配置环境：内置 java 运行环境，一键安装，无需配置。
 * 开始扫描：启动程序后，点击新建任务即可。
+* 查看结果：在漏洞窗口查看即可，可按需进行漏洞排序、筛选、标记等。
 * 查看报告：在**任务**栏右键导出报告即可。
 
 ### 四、需求、bug、讨论
@@ -25,3 +29,4 @@
 * 需求/bug：请在该仓库的 [issues](https://github.com/Chanzi-keji/chanzi/issues) 板块提交。
 * 技术交流：请在该仓库的 [dissussions](https://github.com/Chanzi-keji/chanzi/discussions) 板块参与或发起讨论。
 * 产品文档：GitHub上提供了详细的文档，可在 [wiki](https://github.com/Chanzi-keji/chanzi/wiki) 版本阅读。
+* 官方网站：[www.chanzikeji.com](https://www.chanzikeji.com)
