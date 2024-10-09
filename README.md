@@ -31,4 +31,4 @@
 * 产品文档：GitHub上提供了详细的文档，可在 [wiki](https://github.com/Chanzi-keji/chanzi/wiki) 版本阅读。
 * 官方网站：[www.chanzikeji.com](https://www.chanzikeji.com)
 * 下载地址：[github下载](https://github.com/Chanzi-keji/chanzi/releases)
-* 备用下载地址：[云盘下载](https://pan.quark.cn/s/3db9b6535cee)
+* 备用地址：[云盘下载](https://pan.quark.cn/s/3db9b6535cee)
