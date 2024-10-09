@@ -28,7 +28,7 @@
 
 * 需求/bug：请在该仓库的 [issues](https://github.com/Chanzi-keji/chanzi/issues) 板块提交。
 * 技术交流：请在该仓库的 [dissussions](https://github.com/Chanzi-keji/chanzi/discussions) 板块参与或发起讨论。
-* 产品文档：GitHub上提供了详细的文档，可在 [wiki](https://github.com/Chanzi-keji/chanzi/wiki) 版本阅读。
+* 产品文档：GitHub上提供了详细的文档，可在 [wiki](https://github.com/Chanzi-keji/chanzi/wiki) 板块阅读。
 * 官方网站：[www.chanzikeji.com](https://www.chanzikeji.com)
 * 下载地址：[github下载](https://github.com/Chanzi-keji/chanzi/releases)
 * 备用地址：[云盘下载](https://share.weiyun.com/7n4mAIlW)
