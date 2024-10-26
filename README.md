@@ -7,7 +7,7 @@
 
 ### 二、功能介绍
 
-* 支持语言: java（Servlet&filter、spring、dubbo、thirft、mybatis、dropwizard、jdk内置httpserver、jsp，xml、yaml、properties等）
+* 支持语言: java（Servlet&filter、spring、jfinal、netty、dubbo、thirft、mybatis、dropwizard、jdk内置httpserver、jsp，xml、yaml、properties等）
 * 采用技术：污点分析，铲子会将java、xml（mybatis、dubbo）等统一构建数据流图，无需编译，然后进行污点分析，漏洞结果可在数据流窗口进行方便的阅读
 * 支持漏洞：内置了 sql 注入、命令注入、文件上传、ssrf 等常见cwe漏洞规则，以及log4j、shiro、xstream、actuator等组件类漏洞规则
 * 导出报告：用户可对漏洞进行标记，并导出简单的漏洞报告，包括漏洞类型、危害等级、所在位置以及修复建议，帮助开发人员快速定位和解决问题
