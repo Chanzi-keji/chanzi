@@ -7,10 +7,10 @@
 
 ### 二、功能介绍
 
-* 支持语言: java（Servlet&filter、spring、jfinal、netty、dubbo、thirft、mybatis、dropwizard、jdk内置httpserver、jsp，xml、yaml、properties等）
+* 支持语言: java（Servlet&filter、spring、jfinal、netty、dubbo、thirft、Struts、cxf、mybatis、dropwizard、jdk内置httpserver、jsp，xml、yaml、properties等）
 * 采用技术：污点分析，铲子会将java、xml（mybatis、dubbo）等统一构建数据流图，无需编译，然后进行污点分析，漏洞结果可在数据流窗口进行方便的阅读
-* 支持漏洞：内置了 sql 注入、命令注入、文件上传、ssrf 等常见cwe漏洞规则，以及log4j、shiro、xstream、actuator等组件类漏洞规则
-* 导出报告：用户可对漏洞进行标记，并导出简单的漏洞报告，包括漏洞类型、危害等级、所在位置以及修复建议，帮助开发人员快速定位和解决问题
+* 支持漏洞：内置了 sql 注入、命令注入、文件上传、ssrf、xss、水平越权 等常见cwe漏洞规则，以及log4j、shiro、xstream、actuator、xxljob、Struts、springgateway等组件类漏洞规则
+* 导出报告：用户可对漏洞进行标记，并导出简洁清晰的漏洞报告，包括漏洞统计、漏洞类型、危害等级、数据流、漏洞位置以及修复建议，帮助开发人员快速定位和解决问题
 * 反编译:支持反编译扫描，可以在新建任务时选择需要反编译的jar或class文件，也可以在审计过程中对单个class或jar文件进行反编译阅读代码
 * 编辑器：多功能代码编辑器，为了更方便的阅读代码，减少用户在sast工具及ide之前频繁切换，编辑器内置了类型、变量、方法的跳转及使用查找，快速搜索全仓库，及文件的代码大纲
 * 自定义规则：自定义规则采用cypher查询语言，用户学习门槛低，对于熟悉图数据库的同学可以快速上手
